@@ -1,41 +1,36 @@
-# # music_app
-
-A music app that uses the Shazam API to identify songs.
-
-## Features
-
-* Identify songs by humming or singing them
-* Get song information, including title, artist, album, and lyrics
-* Play songs from streaming services
-* Create playlists
-* Share songs with friends
-
-## Technologies
-
-* React
-* TypeScript
-* Redux
-* Tailwind CSS
-* Shazam API
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-1. Clone the repository 
-2. Install the dependencies `npm install`
-3. Run `npm start`
+First, run the development server:
 
-## Contributing
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Contributions are welcome! Please open an issue or submit a pull request.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Acknowledgement
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-We would like to express our gratitude to the developers and teams behind the technologies that made this music app possible. The contributions of the React, TypeScript, Redux, and Tailwind CSS communities have been invaluable in shaping the user experience and design of the app. Special thanks to the Shazam API for providing the core functionality that allows users to identify songs with ease. Additionally, we extend our thanks to the open-source community for their continuous support, feedback, and inspiration.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-We are also thankful to our dedicated group of beta testers who provided valuable feedback and helped us refine the app's features and performance. Your input was instrumental in creating a better user experience for everyone.
+## Learn More
 
-Lastly, we appreciate the time and effort of all contributors who have helped improve this project through bug reports, feature suggestions, and code contributions. Your commitment to making this music app exceptional is truly appreciated.
+To learn more about Next.js, take a look at the following resources:
 
-## License
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-This project is licensed under the MIT License, which means you are free to use, modify, and distribute the app as per the terms outlined in the license. Feel free to customize the app according to your needs and share it with others while attributing the original creators.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
